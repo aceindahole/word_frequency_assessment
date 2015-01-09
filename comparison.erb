@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Word Comparison</title>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css' type='all'>
+  </head>
+
+  <body>
+    <div class='container'>
+      <h1><font color='green'>Word Comparison!</font></h1>
+
+      <p>Here we have two text boxes. In the first one, put in any sentence that you can think of. In the second, put in any word that you'd like. Once you click the button to confirm your inputs, you will be taken to a page that shows you how many times your singular word appears in the given sentence, if any! Give it a shot now.</p>
+
+      <div class='form-group'>
+        <form action='/results'>
+          <input type='text' name='input_string' id='input_string' placeholder='Sentence'><br><br>
+          <input type='text' name='input_word' id='input_word' placeholder='Comparison Word'><br><br>
+
+          <button type='submit' class='btn btn-default'>Find out!</button>
+        </form>
+      </div>
+
+      <h5><small>Note: You can capitolize any letter that you would like, but please do not put in any punctuation. I'm not THAT good of a developer!</small></h5>
+    </div>
+  </body>
+</html>
