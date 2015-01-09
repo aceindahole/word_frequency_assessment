@@ -1,0 +1,18 @@
+This Ruby assessment features a user defined method to take input of a single word, as well as a sentence,
+and gives a numerical value as to how many times that user's single word shows up in the sentence they
+put in. It also features the necessary files and stylesheets to produce a website using the Sinatra gem.
+
+Setup for the website is very easy. Once the entirety of the file is downloaded, make sure that your
+terminal is in the top level directory of the downloaded file, and run the gem 'ruby app.rb' (if you have
+the sinatra gem installed). Then, in your internet browser, put in the browser bar 'localhost:' and 
+whatever number sinatra gives you for the host location. This number is typically 4567. Once you've
+accessed the webpage, just follow the basic instructions, click the button, and it will take you to a new
+webpage with your results.
+
+
+
+
+
+Copyright Tyler J Brown Dev Productions 2015 ©
+Class C Drivers License ;)
+Developer: Tyler Brown    https://github.com/aceindahole
